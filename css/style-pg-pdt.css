@@ -1,0 +1,25 @@
+body{
+  background-color: #EDEDEF;
+}
+    .card-title {
+      color: #D6D4D4;
+      font-size: 16px;
+    }
+
+    .card {
+      height: 328px;
+      width: 210px;
+    }
+
+    #all-card {
+      flex: 2;
+    }
+
+    .card-img-top {
+      height: 130px;
+    }
+
+    .btn {
+      position: absolute;
+      bottom: 5%;
+    }
