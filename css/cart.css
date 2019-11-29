@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overlock&display=swap');
+
+.cart{
+	position: absolute;
+	z-index: 2;
+	min-height: 10rem;
+	background: #fff;
+	top: 0;
+	left: 0;
+	transition: all 0.3s ease-in-out;
+	width: 0;
+  	font-family: 'Big Shoulders Display', cursive;
+}
+
+.cart, .show-cart{
+	width: 16rem;
+	top: 50px;
+	padding: 2rem 1.5rem;
+	transform: rotateY(360deg);
+}
+.cart-item{
+	transition: all 2s ease-in-out;
+}
+
+.cart-item-remove{
+	color: red;
+	transition: all 1s ease-in-out;
+}
+.cart-item-remove:hover{
+	transform: scale(1.1);
+	color: black;
+}

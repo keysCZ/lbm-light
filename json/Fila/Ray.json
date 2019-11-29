@@ -1,0 +1,46 @@
+{
+  	"modelsName" : "Fila Ray",
+	"price" : 90,
+	"models" : [
+		{
+			"image" : "../../assets/img-fila/Ray/BLACK.PNG",
+			"id" : "FHR5482903", 
+			"product" : "BLACK",
+			"type" : "mixed",
+			"color" : ["black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		},
+		{
+			"image" : "../../assets/img-fila/Ray/BW.PNG",
+			"id" : "FHR0199205",
+			"product" : "BLACK WHITE",
+			"type" : "mixed",
+			"color" : ["white", "black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		},
+		{
+			"image" : "../../assets/img-fila/Ray/WHITE GREY.PNG",
+			"id" : "FHR0917736",
+			"product" : "WHITE GREY",
+			"type" : "women",
+			"color" : ["white", "grey"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		},
+		{
+			"image" : "../../assets/img-fila/Ray/NAVY RED.PNG",
+			"id" : "FHR9278538",
+			"product" : "NAVY RED",
+			"type" : "women",
+			"color" : ["white", "blue", "yellow", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		},
+		{
+			"image" : "../../assets/img-fila/Ray/SILVER.PNG",
+			"id" : "FHR8164041",
+			"product" : "SILVER",
+			"type" : "mixed",
+			"color" : ["grey"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		}
+	]
+}

@@ -1,0 +1,137 @@
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/../../assets/Pingendo_favicon.ico">
+  <title>%TITLE% - LBM</title>
+  <meta name="description" content="Free Bootstrap 4 Pingendo Flat template for restaurant and food">
+  <meta name="keywords" content="Pingendo restaurant food flat free template bootstrap 4">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="../../flat.css" type="text/css">
+  <link rel="stylesheet" href="../../css/style-pg-pdt.css" type="text/css">
+  <link rel="stylesheet" href="../../css/cart.css" type="text/css">
+  <link rel="stylesheet" href="../../css/filter.css" type="text/css">
+  <script src="../../js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  
+  <script src="../../js/appcart.js"></script>
+  <script src="../../js/animate-in.js"></script>
+ <!-- <script>
+    $(document).ready(function(){
+      var $n = $(".qty");
+      $n.hide();
+      $(".addPanier").click(function(){
+        $n.show();
+        $n.val(Number($n.val())+1);
+      });
+      $n.css("display", "block");
+      $n.css("position", "absolute");
+      $n.css("z-index", "1");
+      $n.css("top", "0");
+      $n.css("border", "none");
+      $n.css("background", "none");
+      $n.css("color", "lightgrey");
+      $n.css("width", "auto");
+    });
+  </script>-->
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-info navbar-light fixed-top">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../../index.php">
+              <b>ACCUEIL </b>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> MARQUES </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../Nike.php">NIKE</a>
+              <a class="dropdown-item" href="../Air-Jordan.php">AIR JORDAN</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../Adidas.php">ADIDAS</a>
+              <a class="dropdown-item" href="../Fila.php">FILA</a>
+              <a class="dropdown-item" href="../Puma.php">PUMA</a>
+              <a class="dropdown-item" href="../vans.php">VANS</a>
+            </div>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> FEMMES </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../Adidas.php">ADIDAS</a>
+              <a class="dropdown-item" href="../Fila.php">FILA</a>
+              <a class="dropdown-item" href="../Puma.php">PUMA</a>
+            </div>
+          </li> 
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../Enfants.php">ENFANTS</a>
+          </li>           
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> HOMMES </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../Nike.php">NIKE</a>
+              <a class="dropdown-item" href="../Air-Jordan.php">AIR JORDAN</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../Adidas.php">ADIDAS</a>
+              <a class="dropdown-item" href="../Fila.php">FILA</a>
+              <a class="dropdown-item" href="../Puma.php">PUMA</a>
+            </div>
+          </li>
+        </ul>
+        <div id="cart-info" class="mt-2 nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+          <p class="infoc mb-0 text-capitalize">
+            <span id="item-count">0</span>&nbsp;Panier
+
+            <!--Votre panier <span class="item-total">0.00</span> € -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="cart" class="cart show-cart">
+      <div class="text-center" >
+        <p class="font-weight-bold text-lead" id="empty_msg">Votre panier est vide !</p>
+      </div>
+    <!-- Cart item  <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+      <img src="../../assets/img-nike/AM720/GYM RED.PNG" class="img-fluid rounded-circle" style="width:40%; height: 50%;" alt="" id="item-img">
+      <div class="item-text">
+        <p id="cart-item-title" class="font-weight-bold mb-0">cart item &nbsp;</p>
+        <span id="cart-item-price" class="cart-item-price">150</span><span>€</span>
+      </div>
+      <a href="" id="cart-item-remove" class="cart-item-remove">Supprimer</a>
+      end Cart item -->
+      <!-- cart total -->
+      <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+        <h5>total</h5>
+        <h5> <strong id="cart-total" class="font-weight-bold">0.00</strong> €</h5>
+      </div>
+      <!--end cart total -->
+      <!-- cart buttons -->
+      <div class="cart-buttons-container mt-3 d-flex justify-content-between">
+        <a href="" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase ">Effacer</a>
+        <!-- <a href="https://www.paypal.com/cgi-bin/webscr" class="btn btn-outline-primary text-uppercase btn-pink mx-5" style="float: right;">Passer au paiement</a> -->
+        <form target="paypal" style="width:70px; height: 50px" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="button" border="0" class="btn btn-outline-primary text-uppercase btn-pink mx-5"  style="float: right;" name="submit" value="Passer au paiement">
+            
+            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+          </form>
+      </div>
+    </div>
+    <!--end of  cart buttons -->
+  </div>

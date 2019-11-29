@@ -1,25 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overlock&display=swap');
+
+
 body{
   background-color: #EDEDEF;
+  font-family: 'Overlock', cursive;
 }
-    .card-title {
-      color: #D6D4D4;
-      font-size: 16px;
-    }
+footer{
+  position: relative;
 
-    .card {
-      height: 328px;
-      width: 210px;
-    }
+}
+.card-title {
+  color: #E3CE19;
+  font-size: 16px;
+}
 
-    #all-card {
-      flex: 2;
-    }
+.jumbotron, .jumbotron h1, .card, .card-title{
+  font-family: 'Overlock', cursive;
+}
 
-    .card-img-top {
-      height: 130px;
-    }
+#all-card {
+  flex: 2;
+}
 
-    .btn {
-      position: absolute;
-      bottom: 5%;
-    }
+.card-img-top {
+  height: 120px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 5%;
+}
+.main{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 5%;
+  margin-left: auto;
+}
+
+.card{
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  display: block;
+  z-index: 2;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.card-header{
+  padding: 0;
+}
+
+.card-footer ul{
+  position: static;
+  margin-block-start: 0em;
+  padding-inline-start: 0px;
+}
+.card-footer ul li{
+  list-style: none;
+  position: relative;
+  margin: 3px;
+  width: 20px;
+  height: 20px;
+  float: left;
+  border-bottom: solid 2px teal;
+  font-size: 80%;
+}

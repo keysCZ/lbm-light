@@ -1,0 +1,46 @@
+{
+  	"modelsName" : "Fila Disruptor",
+	"price" : 90,
+	"models" : [
+		{
+			"image" : "../../assets/img-fila/DISRUPTOR/BLACK.PNG",
+			"id" : "FDI5467787", 
+			"product" : "BLACK",
+			"type" : "mixed",
+			"color" : ["black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		},
+		{
+			"image" : "../../assets/img-fila/DISRUPTOR/BW.PNG",
+			"id" : "FDI5467787",
+			"product" : "BLACK WHITE",
+			"type" : "mixed",
+			"color" : ["white", "black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		},
+		{
+			"image" : "../../assets/img-fila/DISRUPTOR/WHITE.PNG",
+			"id" : "FDI0932478",
+			"product" : "WHITE",
+			"type" : "mixed",
+			"color" : ["white"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		},
+		{
+			"image" : "../../assets/img-fila/DISRUPTOR/WHITE PINK.PNG",
+			"id" : "FDI3297904",
+			"product" : "WHITE PINK",
+			"type" : "women",
+			"color" : ["white", "pink"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		},
+		{
+			"image" : "../../assets/img-fila/DISRUPTOR/RED.PNG",
+			"id" : "FDI9871649",
+			"product" : "RED",
+			"type" : "women",
+			"color" : ["red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+		}
+	]
+}
