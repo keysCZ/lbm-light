@@ -4,21 +4,21 @@
 	<h5 class="legend-filter fixed">Filtrer</h5>
 	<p class="legend-filter">Styles</p>
 	<ul class="list-group">
-		<li class="list-group-item d-flex justify-content-between align-items-center gender">
-			Tout
-			<span class="badge badge-primary badge-pill" id="all-products">0</span>
+		<li class="list-group-item d-flex justify-content-between align-items-center">
+			<div class="gender" id="all-products">Tout</div>
+			<span class="badge badge-primary badge-pill" id="all">0</span>
 		</li>
-		<li class="list-group-item d-flex justify-content-between align-items-center gender">
-			Hommes
-			<span class="badge badge-primary badge-pill" id="men">14</span>
+		<li class="list-group-item d-flex justify-content-between align-items-center">
+			<div class="gender" id="men">Hommes</div>
+			<span class="badge badge-primary badge-pill" id="count-men">14</span>
 		</li>
-		<li class="list-group-item d-flex justify-content-between align-items-center gender">
-			Femmes
-			<span class="badge badge-primary badge-pill" id="women">2</span>
+		<li class="list-group-item d-flex justify-content-between align-items-center">
+			<div class="gender" id="women">Femmes</div>
+			<span class="badge badge-primary badge-pill" id="count-women">2</span>
 		</li>
-		<li class="list-group-item d-flex justify-content-between align-items-center gender">
-			Mixe
-			<span class="badge badge-primary badge-pill" id="mixed">1</span>
+		<li class="list-group-item d-flex justify-content-between align-items-center" >
+			<div class="gender" id="mixed">Mixe</div>
+			<span class="badge badge-primary badge-pill" id="count-mixed">1</span>
 		</li>
 	</ul><hr>
 	<p class="legend-filter">Couleurs</p>

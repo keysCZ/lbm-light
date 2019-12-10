@@ -1,5 +1,5 @@
 {
-  	"modelsName" : "Nike Air Max 270",
+	"modelsName" : "Nike Air Max 270",
 	"price" : 150,
 	"models" : [
 		{
@@ -8,7 +8,9 @@
 			"product" : "Black Volt",
 			"type" : "mixed",
 			"color" : ["black", "green"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/VOLT.jpg",
@@ -16,7 +18,9 @@
 			"product" : "WHITE VOLT",
 			"type" : "mixed",
 			"color" : ["white", "green"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/GUP.jpg",
@@ -24,7 +28,9 @@
 			"product" : "GRADIENT UPPER JORDAN",
 			"type" : "women",
 			"color" : ["white", "blue", "yellow"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/IMG-20190919-WA0021.jpg",
@@ -32,7 +38,9 @@
 			"product" : "PHILIPPINES",
 			"type" : "women",
 			"color" : ["white", "blue", "yellow", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/ROZMIAR43.jpg",
@@ -40,7 +48,9 @@
 			"product" : "ELEMENTAL GOLD",
 			"type" : "mixed",
 			"color" : ["brown"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/TRIPLE WHITE.PNG",
@@ -48,7 +58,9 @@
 			"product" : "TRIPLE WHITE",
 			"type" : "mixed",
 			"color" : ["white"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/IMG-20190919-WA0020.jpg",
@@ -56,7 +68,9 @@
 			"product" : "BONE HOT",
 			"type" : "mixed",
 			"color" : ["white", "black", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/IMG-20190919-WA0017.jpg",
@@ -64,7 +78,9 @@
 			"product" : "DUSTY CACTUS",
 			"type" : "mixed",
 			"color" : ["white", "blue", "black"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/51 D.JPG",
@@ -72,7 +88,9 @@
 			"product" : "MIDNIGHT NAVY",
 			"type" : "mixed",
 			"color" : ["blue"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/88.jpg",
@@ -80,7 +98,9 @@
 			"product" : "BRED",
 			"type" : "mixed",
 			"color" : ["white", "black", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/IGLOO.PNG",
@@ -88,7 +108,9 @@
 			"product" : "IGLOO",
 			"type" : "mixed",
 			"color" : ["black", "blue"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/GRIS.JPG",
@@ -96,7 +118,9 @@
 			"product" : "ASHEN SLATE BLACK",
 			"type" : "mixed",
 			"color" : ["black", "blue"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/MOZAIC.JPG",
@@ -104,7 +128,9 @@
 			"product" : "Chinese New Year Red Black",
 			"type" : "mixed",
 			"color" : ["black", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/RAINBOW BLUE.JPG",
@@ -112,7 +138,9 @@
 			"product" : "SE (Multicolor black)",
 			"type" : "mixed",
 			"color" : ["black"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/OLIVE.PNG",
@@ -120,7 +148,9 @@
 			"product" : "OLIVE",
 			"type" : "mixed",
 			"color" : ["green"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/MEDIUM OLIVE.PNG",
@@ -128,7 +158,9 @@
 			"product" : "MEDIUM OLIVE",
 			"type" : "mixed",
 			"color" : ["green", "orange"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/IMG-20190909-WA0005.jpg",
@@ -136,7 +168,9 @@
 			"product" : "GRAFFITI",
 			"type" : "mixed",
 			"color" : ["black", "white", "red", "blue"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/IMG-20190909-WA0012.jpg",
@@ -144,7 +178,9 @@
 			"product" : "WHITE SPECTRUM",
 			"type" : "mixed",
 			"color" : ["black", "white"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/TRIPLE B SPECTRUM D.PNG",
@@ -152,7 +188,9 @@
 			"product" : "TRIPLE BLACK SPECTRUM",
 			"type" : "mixed",
 			"color" : ["black", "grey"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/IMG-20190909-WA0007.jpg",
@@ -160,7 +198,9 @@
 			"product" : "Black Red White Spectrum",
 			"type" : "mixed",
 			"color" : ["black", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/IMG-20190909-WA0011.jpg",
@@ -168,7 +208,9 @@
 			"product" : "BETRUE NAVY RAINBOW",
 			"type" : "mixed",
 			"color" : ["black", "blue", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/NAVY BB.PNG",
@@ -176,7 +218,9 @@
 			"product" : "Navy White",
 			"type" : "mixed",
 			"color" : ["blue"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/BLACK ORANGE.JPG",
@@ -184,7 +228,9 @@
 			"product" : "ORANGE TONAL BLACK",
 			"type" : "mixed",
 			"color" : ["black", "orange"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/BLUE PACK B.PNG",
@@ -192,7 +238,9 @@
 			"product" : "BLUE PACK",
 			"type" : "mixed",
 			"color" : ["black", "blue"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/GOLD.JPG",
@@ -200,7 +248,9 @@
 			"product" : "WHITE GOLD GLITTER",
 			"type" : "mixed",
 			"color" : ["white", "gold"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/66 WHITE AIR S.JPG",
@@ -208,7 +258,9 @@
 			"product" : "Off White x Nike Air Max 270 “White”",
 			"type" : "mixed",
 			"color" : ["white"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/98 S.JPG",
@@ -216,7 +268,9 @@
 			"product" : "Premium Triple Black White Splats",
 			"type" : "mixed",
 			"color" : ["black"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/UNIVERSITY RED.PNG",
@@ -224,7 +278,9 @@
 			"product" : "WHITE UNIVERSITY RED",
 			"type" : "mixed",
 			"color" : ["white", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/REFLECTIVE RED.PNG",
@@ -232,7 +288,9 @@
 			"product" : "REFLECTIVE RED",
 			"type" : "mixed",
 			"color" : ["black", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/INDIGO.PNG",
@@ -240,7 +298,9 @@
 			"product" : "Gris / Bleu Indigo",
 			"type" : "mixed",
 			"color" : ["grey", "blue"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/SPRITE.PNG",
@@ -248,7 +308,9 @@
 			"product" : "Game Royal Dynamic Yellow",
 			"type" : "mixed",
 			"color" : ["black", "blue", "yellow"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/ARMORY.PNG",
@@ -256,7 +318,9 @@
 			"product" : "ARMORY NAVY",
 			"type" : "mixed",
 			"color" : ["white", "blue"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/METALLIC GOLD.PNG",
@@ -264,7 +328,9 @@
 			"product" : "White Metallic Gold Black",
 			"type" : "mixed",
 			"color" : ["black", "gold", "white"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-nike/AM270/METALLIC GOLD.PNG",
@@ -272,7 +338,9 @@
 			"product" : "White Metallic Gold Black",
 			"type" : "mixed",
 			"color" : ["black", "gold", "white"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		}
 	]
 }

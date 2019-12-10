@@ -1,0 +1,116 @@
+{
+  	"modelsName" : "Puma Cell",
+	"price" : 90,
+	"models" : [
+		{
+			"image" : "../../assets/img-puma/CELL/ALIEN OG BLUE GREEN.PNG",
+			"id" : "PCL5482903", 
+			"product" : "ALIEN OG BLUE GREEN",
+			"type" : "mixed",
+			"color" : ["blue", "green"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/ALIEN OG BLUE.PNG",
+			"id" : "PCL0199205",
+			"product" : "ALIEN OG BLUE",
+			"type" : "mixed",
+			"color" : ["blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/ALIEN OG ORANGE ALERT.PNG",
+			"id" : "PCL0917736",
+			"product" : "ALIEN OG ORANGE ALERT",
+			"type" : "mixed",
+			"color" : ["white", "orange"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/ALIEN OG RED.PNG",
+			"id" : "PCL9278538",
+			"product" : "ALIEN OG RED",
+			"type" : "women",
+			"color" : ["black", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/ENDURA ANDEAN TOUCAN.PNG",
+			"id" : "PCL8164041",
+			"product" : "ENDURA ANDEAN TOUCAN",
+			"type" : "women",
+			"color" : ["white", "blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/ENDURA PALE PINK.PNG",
+			"id" : "PCL9882193",
+			"product" : "ENDURA PALE PINK",
+			"type" : "mixed",
+			"color" : ["white", "pink"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/ENDURA PATENT 98.PNG",
+			"id" : "PCL4562771",
+			"product" : "ENDURA PATENT 98",
+			"type" : "mixed",
+			"color" : ["white", "black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/ENDURA WHITE.PNG",
+			"id" : "PCL3746103",
+			"product" : "ENDURA WHITE",
+			"type" : "women",
+			"color" : ["white"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/VENOM BLACK-PURPLE.PNG",
+			"id" : "PCL7382911",
+			"product" : "VENOM BLACK-PURPLE",
+			"type" : "women",
+			"color" : ["black","purple"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/VENOM BLUE.PNG",
+			"id" : "PCL5609382",
+			"product" : "VENOM BLUE",
+			"type" : "women",
+			"color" : ["blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/CELL/VENOM PEACOAT.PNG",
+			"id" : "PCL0913475",
+			"product" : "VENOM PEACOAT",
+			"type" : "women",
+			"color" : ["red", "blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		}
+	]
+}

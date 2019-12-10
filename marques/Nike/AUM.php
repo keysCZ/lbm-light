@@ -4,9 +4,10 @@ include("../../includes/header_catalogue.php");
 $buffer=ob_get_contents();
 ob_end_clean();
 
-$buffer=str_replace("%TITLE%","FILA RAY",$buffer);
+$buffer=str_replace("%TITLE%","AIR MORE UPTEMPO",$buffer);
 echo $buffer;
-$path = '../../json/FILA/Ray.json';
+
+$path = '../../json/Nike/AUM.json';
 ?>
 <div class="py-5 mb-0">
 	<!-- SideBar -->

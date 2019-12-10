@@ -1,0 +1,116 @@
+{
+  	"modelsName" : "AIR JORDAN 13",
+	"price" : 180,
+	"models" : [
+		{
+			"image" : "../../assets/img-jordan/13/BARON HOLOGARM.PNG",
+			"id" : "AJ13409765",
+			"product" : "BARON HOLOGRAM",
+			"type" : "mixed",
+			"color" : ["white", "blue", "red"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/BLACK CAT.PNG",
+			"id" : "AJ13297640",
+			"product" : "BLACK CAT",
+			"type" : "men",
+			"color" : ["blue", "green"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/BLACK RED.PNG",
+			"id" : "AJ13546787",
+			"product" : "BLACK RED",
+			"type" : "mixed",
+			"color" : ["orange", "blue"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/COURT PURPLE.PNG",
+			"id" : "AJ13093278",
+			"product" : "COURT PURPLE",
+			"type" : "mixed",
+			"color" : ["blue"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/FLINT",
+			"id" : "AJ13329097",
+			"product" : "FLINT",
+			"type" : "men",
+			"color" : ["black", "grey"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/GREY.PNG",
+			"id" : "AJ13964971",
+			"product" : "GREY",
+			"type" : "mixed",
+			"color" : ["black", "yellow"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/HE GOT GAME.PNG",
+			"id" : "AJ13100958",
+			"product" : "HE GOT GAME",
+			"type" : "men",
+			"color" : ["white", "grey"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13PANTONE.PNG",
+			"id" : "AJ13546731",
+			"product" : "PANTONE",
+			"type" : "mixed",
+			"color" : ["white", "yellow"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/PURE PLATINIUM.PNG",
+			"id" : "AJ13245278",
+			"product" : "PURE PLATINIUM",
+			"type" : "men",
+			"color" : ["black"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/TRUE RED.PNG",
+			"id" : "AJ13091835",
+			"product" : "TRUE RED",
+			"type" : "men",
+			"color" : ["white", "black"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/13/WHEAT.PNG",
+			"id" : "AJ13928406",
+			"product" : "WHEAT",
+			"type" : "men",
+			"color" : ["black"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		}
+	]
+}

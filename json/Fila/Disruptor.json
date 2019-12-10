@@ -8,7 +8,9 @@
 			"product" : "BLACK",
 			"type" : "mixed",
 			"color" : ["black"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/BW.PNG",
@@ -16,7 +18,9 @@
 			"product" : "BLACK WHITE",
 			"type" : "mixed",
 			"color" : ["white", "black"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/WHITE.PNG",
@@ -24,7 +28,9 @@
 			"product" : "WHITE",
 			"type" : "mixed",
 			"color" : ["white"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/WHITE PINK.PNG",
@@ -32,7 +38,9 @@
 			"product" : "WHITE PINK",
 			"type" : "women",
 			"color" : ["white", "pink"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/RED.PNG",
@@ -40,7 +48,9 @@
 			"product" : "RED",
 			"type" : "women",
 			"color" : ["red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		}
 	]
 }

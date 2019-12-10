@@ -8,7 +8,9 @@
 			"product" : "BLACK",
 			"type" : "mixed",
 			"color" : ["black"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-fila/Ray/BW.PNG",
@@ -16,7 +18,9 @@
 			"product" : "BLACK WHITE",
 			"type" : "mixed",
 			"color" : ["white", "black"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-fila/Ray/WHITE GREY.PNG",
@@ -24,7 +28,9 @@
 			"product" : "WHITE GREY",
 			"type" : "women",
 			"color" : ["white", "grey"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-fila/Ray/NAVY RED.PNG",
@@ -32,7 +38,9 @@
 			"product" : "NAVY RED",
 			"type" : "women",
 			"color" : ["white", "blue", "yellow", "red"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		},
 		{
 			"image" : "../../assets/img-fila/Ray/SILVER.PNG",
@@ -40,7 +48,9 @@
 			"product" : "SILVER",
 			"type" : "mixed",
 			"color" : ["grey"],
-			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"]
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 150
 		}
 	]
 }

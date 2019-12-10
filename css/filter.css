@@ -24,6 +24,9 @@ body, header{
 	padding: 20px;
 	width: 16rem;
 }
+.gender{
+	cursor: pointer;
+}
 .round-color{
 	position: relative;	
 	margin: 8px;
@@ -56,7 +59,16 @@ body, header{
 }
 
 
-div.hide{
+div.hide-c{
+	display: none;
+	z-index: -1;
+	width: 0;
+	padding: 0;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+div.hide-g{
 	display: none;
 	z-index: -1;
 	width: 0;

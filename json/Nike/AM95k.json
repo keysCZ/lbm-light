@@ -1,0 +1,126 @@
+{
+  	"modelsName" : "Nike Air Max 95 (Enfant)",
+	"price" : 90,
+	"models" : [
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/2 rouge.JPG",
+			"id" : "AJ13409765",
+			"product" : "TWO RED",
+			"type" : "mixed",
+			"color" : ["black", "green"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/automne.JPG",
+			"id" : "AJ13297640",
+			"product" : "AUTOMN",
+			"type" : "mixed",
+			"color" : ["white", "green"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/BLACK.PNG",
+			"id" : "AJ13546787",
+			"product" : "BLACK",
+			"type" : "women",
+			"color" : ["white", "blue", "yellow"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/blanc bleu.JPG",
+			"id" : "AJ13093278",
+			"product" : "WHITE BLUE",
+			"type" : "women",
+			"color" : ["white", "blue", "yellow", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/BLUE ORANGE INTO.PNG",
+			"id" : "AJ13329097",
+			"product" : "BLUE ORANGE INTO",
+			"type" : "mixed",
+			"color" : ["brown"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/BW BEIGE.PNG",
+			"id" : "AJ13964971",
+			"product" : "BEIGE",
+			"type" : "mixed",
+			"color" : ["white"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/BW BLUE.PNG",
+			"id" : "AJ13100958",
+			"product" : "BLACK WHITE BLUE",
+			"type" : "mixed",
+			"color" : ["white", "black", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/dark gris red.PNG",
+			"id" : "AJ13546731",
+			"product" : "DARK GREY RED",
+			"type" : "mixed",
+			"color" : ["white", "blue", "black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/noir bleu profond.JPG",
+			"id" : "AJ13245278",
+			"product" : "BLACK DEEP NAVY",
+			"type" : "mixed",
+			"color" : ["blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/noir or.JPG",
+			"id" : "AJ13091835",
+			"product" : "BLACK GOLD",
+			"type" : "mixed",
+			"color" : ["white", "black", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/or.JPG",
+			"id" : "AJ13928406",
+			"product" : "GOLD",
+			"type" : "mixed",
+			"color" : ["black", "blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-nike/AM95/KIDS/RED GREY.PNG",
+			"id" : "AJ13329097",
+			"product" : "RED GREY",
+			"type" : "mixed",
+			"color" : ["black", "blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		}
+	]
+}

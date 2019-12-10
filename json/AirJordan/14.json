@@ -1,0 +1,106 @@
+{
+  	"modelsName" : "Air Jordan 14",
+	"price" : 180,
+	"models" : [
+		{
+			"image" : "../../assets/img-jordan/14/CANDY CANE.PNG",
+			"id" : "AJ14329780",
+			"product" : "CANDY CANE",
+			"type" : "mixed",
+			"color" : ["white", "blue", "red"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/DESERT SAND.PNG",
+			"id" : "AJ14325632",
+			"product" : "DESERT SAND",
+			"type" : "men",
+			"color" : ["blue", "green"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/LANEY.PNG",
+			"id" : "AJ14019024",
+			"product" : "LANEY",
+			"type" : "mixed",
+			"color" : ["orange", "blue"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/YELLOW FERRARI.PNG",
+			"id" : "AJ14359660",
+			"product" : "YELLOW FERRARI",
+			"type" : "mixed",
+			"color" : ["blue"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/GS FUSHIA BLAST.PNG",
+			"id" : "AJ14234179",
+			"product" : "GS FUSHIA BLAST",
+			"type" : "men",
+			"color" : ["black", "grey"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/INDIGLO.PNG",
+			"id" : "AJ14303752",
+			"product" : "INDIGLO",
+			"type" : "mixed",
+			"color" : ["black", "yellow"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/LAST SHOT.PNG",
+			"id" : "AJ14901247",
+			"product" : "LAST SHOT",
+			"type" : "men",
+			"color" : ["white", "grey"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/Retro BG Vibrant Yellow.PNG",
+			"id" : "AJ14264309",
+			"product" : "Retro BG Vibrant",
+			"type" : "mixed",
+			"color" : ["white", "yellow"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/RETRO BLACK TOE.PNG",
+			"id" : "AJ14785430",
+			"product" : "RETRO BLACK TOE",
+			"type" : "men",
+			"color" : ["black"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		},
+		{
+			"image" : "../../assets/img-jordan/14/RETRO WOLF.PNG",
+			"id" : "AJ14100898",
+			"product" : "RETRO WOLF",
+			"type" : "men",
+			"color" : ["white", "black"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 180
+		}
+	]
+}

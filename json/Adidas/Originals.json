@@ -1,0 +1,126 @@
+{
+  	"modelsName" : "Adidas Originals",
+	"price" : 175.50,
+	"models" : [
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/STANSMITH/BLACK.PNG",
+			"id" : "OSS2340976",
+			"product" : "STAN SMITH BLACK",
+			"type" : "mixed",
+			"color" : ["white", "blue", "red"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/STANSMITH/GOLD.PNG",
+			"id" : "OSS5467787",
+			"product" : "STAN SMITH GOLD",
+			"type" : "men",
+			"color" : ["blue", "green"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/STANSMITH/BW.PNG",
+			"id" : "OSS0932478",
+			"product" : "STAN SMITH BLACK WHITE",
+			"type" : "mixed",
+			"color" : ["orange", "blue"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/STANSMITH/WPINK.PNG",
+			"id" : "OSS3297904",
+			"product" : "STAN SMITH WHITE PINK",
+			"type" : "mixed",
+			"color" : ["blue"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/STANSMITH/WG.PNG",
+			"id" : "OSS9871649",
+			"product" : "STAN SMITH WHITE GREEN",
+			"type" : "men",
+			"color" : ["black", "grey"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/STANSMITH/BLUE.PNG",
+			"id" : "OSS9871649",
+			"product" : "STAN SMITH WHITE BLUE",
+			"type" : "mixed",
+			"color" : ["black", "yellow"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/SUPERSTAR/BLACK.PNG",
+			"id" : "OST5482903",
+			"product" : "SUPERSTAR FOUNDATION BLACK",
+			"type" : "men",
+			"color" : ["white", "grey"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/SUPERSTAR/WHITE.PNG",
+			"id" : "OST0917736",
+			"product" : "SUPERSTAR FOUNDATION WHITE",
+			"type" : "mixed",
+			"color" : ["white", "yellow"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/SUPERSTAR/GOLD.PNG",
+			"id" : "OST0199205",
+			"product" : "SUPERSTAR GOLD",
+			"type" : "men",
+			"color" : ["black"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/SUPERSTAR/PRIDE PACK.PNG",
+			"id" : "OST0306805",
+			"product" : "SUPERSTAR PRIDE PACK",
+			"type" : "men",
+			"color" : ["white", "black"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/SUPERSTAR/IRIDESCENT.PNG",
+			"id" : "OST9278538",
+			"product" : "SUPERSTAR IRIDESCENT",
+			"type" : "men",
+			"color" : ["black"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-adidas/ORIGINALS/SUPERSTAR/DELUXE RED.PNG",
+			"id" : "OST8164041",
+			"product" : "SUPERSTAR DELUXE RED",
+			"type" : "men",
+			"color" : ["black", "yellow"],
+			"size" : ["40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		}
+	]
+}

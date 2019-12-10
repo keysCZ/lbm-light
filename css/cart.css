@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Overlock&display=swap');
 
+.cart-info:hover{
+	cursor: pointer;
+}
 .cart{
 	position: absolute;
 	z-index: 2;
@@ -13,7 +16,7 @@
   	font-family: 'Big Shoulders Display', cursive;
 }
 
-.cart, .show-cart{
+.showc{
 	width: 16rem;
 	top: 50px;
 	padding: 2rem 1.5rem;

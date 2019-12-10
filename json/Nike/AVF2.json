@@ -1,0 +1,186 @@
+{
+  	"modelsName" : "Nike Air Vapormax Flyknit 2",
+	"price" : 175.50,
+	"models" : [
+		{
+			"image" : "../../assets/img-nike/AVF2/UNIVERSITY GOLD.PNG",
+			"product" : "UNIVERSITY GOLD",
+			"id" : "AV2F4198634",
+			"type" : "mixed",
+			"color" : ["black", "green"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/BLACK.PNG",
+			"product" : "BLACK",
+			"id" : "AV2F2498717",
+			"type" : "mixed",
+			"color" : ["white", "green"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/BLACK GOLD.PNG",
+			"product" : "BLACK GOLD",
+			"id" : "AV2F2871498",
+			"type" : "women",
+			"color" : ["white", "blue", "yellow"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/TRIPLE BLACK.PNG",
+			"product" : "TRIPLE BLACK",
+			"id" : "AV2F8726929",
+			"type" : "women",
+			"color" : ["white", "blue", "yellow", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/LASER ORANGE.PNG",
+			"product" : "LASER ORANGE",
+			"id" : "AV2F2467520",
+			"type" : "mixed",
+			"color" : ["brown"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/TIGER.PNG",
+			"product" : "TIGER",
+			"id" : "AV2F0943874",
+			"type" : "mixed",
+			"color" : ["white"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/RED OBSIDIAN.PNG",
+			"product" : "RED OBSIDIAN",
+			"id" : "AV2F2784324",
+			"type" : "mixed",
+			"color" : ["white", "black", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/SAFARI.PNG",
+			"product" : "SAFARI",
+			"id" : "AV2F2981901",
+			"type" : "mixed",
+			"color" : ["white", "blue", "black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/RED ORBIT.PNG",
+			"product" : "RED ORBIT",
+			"id" : "AV2F2551272",
+			"type" : "mixed",
+			"color" : ["blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/RUST PINK.PNG",
+			"product" : "RUST PINK",
+			"id" : "AV2F5946001",
+			"type" : "mixed",
+			"color" : ["white", "black", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/CACTUS.PNG",
+			"product" : "CACTUS",
+			"id" : "AV2F0918725",
+			"type" : "mixed",
+			"color" : ["black", "blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/DUSTY CACTUS.PNG",
+			"product" : "DUSTY CACTUS",
+			"id" : "AV2F7085026",
+			"type" : "mixed",
+			"color" : ["black", "blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/GUNSMOKE.PNG",
+			"product" : "GUNSMOKE",
+			"id" : "AV2F2309472",
+			"type" : "mixed",
+			"color" : ["black", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/GREY CRIMSON PULSE.PNG",
+			"product" : "GREY CRIMSON PULSE",
+			"id" : "AV2F1825674",
+			"type" : "mixed",
+			"color" : ["black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/GREY GREEN.PNG",
+			"product" : "GREY GREEN",
+			"id" : "AV2F9701632",
+			"type" : "mixed",
+			"color" : ["green"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/BROWN.PNG",
+			"product" : "BROWN",
+			"id" : "AV2F4762195",
+			"type" : "mixed",
+			"color" : ["green", "orange"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/NEUTRAL OLIVE.PNG",
+			"product" : "NEUTRAL OLIVE",
+			"id" : "AV2F3640192",
+			"type" : "mixed",
+			"color" : ["black", "white", "red", "blue"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		},
+		{
+			"image" : "../../assets/img-nike/AVF2/IRIDESCENT.PNG",
+			"product" : "IRIDESCENT",
+			"id" : "AV2F8391097",
+			"type" : "mixed",
+			"color" : ["black", "white"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 175.50
+		}
+	]
+}

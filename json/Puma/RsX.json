@@ -1,0 +1,97 @@
+{
+  	"modelsName" : "Puma RS-X",
+	"price" : 90,
+	"models" : [
+		{
+			"image" : "../../assets/img-puma/RS-X/BLACK GOLD.PNG",
+			"id" : "PRS2340976", 
+			"product" : "BLACK GOLD",
+			"type" : "mixed",
+			"color" : ["black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/RS-X/Bw.PNG",
+			"id" : "PRS2976340",
+			"product" : "BLACK WHITE",
+			"type" : "mixed",
+			"color" : ["white", "black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/RS-X/WHEELS BONE.PNG",
+			"id" : "PRS5467787",
+			"product" : "WHEELS BONE",
+			"type" : "women",
+			"color" : ["white", "grey"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/RS-X/RED.PNG",
+			"id" : "PRS0932478",
+			"product" : "RED",
+			"type" : "women",
+			"color" : ["white", "blue", "yellow", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/RS-X/AQUA GLACIER.PNG",
+			"id" : "PRS3290497",
+			"product" : "AQUA GLACIER",
+			"type" : "mixed",
+			"color" : ["grey"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/RS-X/FINESS.PNG",
+			"id" : "PRS9649871", 
+			"product" : "FINESS",
+			"type" : "mixed",
+			"color" : ["black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/RS-X/WHISPER.PNG",
+			"id" : "PRS9649871",
+			"product" : "WHISPER",
+			"type" : "mixed",
+			"color" : ["white", "black"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/RS-X/TRANSFORMERS.PNG",
+			"id" : "PRS5467431",
+			"product" : "TRANSFORMERS",
+			"type" : "women",
+			"color" : ["white", "grey"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		},
+		{
+			"image" : "../../assets/img-puma/RS-X/HARD-DRIVE.PNG",
+			"id" : "PR247S0578",
+			"product" : "HARD-DRIVE",
+			"type" : "women",
+			"color" : ["white", "blue", "yellow", "red"],
+			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
+			"value" : "2LF9AXJVHK5JG",
+			"price" : 90
+		}
+
+	]
+}

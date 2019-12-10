@@ -14,6 +14,11 @@
   <link rel="stylesheet" href="../../css/style-pg-pdt.css" type="text/css">
   <link rel="stylesheet" href="../../css/cart.css" type="text/css">
   <link rel="stylesheet" href="../../css/filter.css" type="text/css">
+  <script src="../../js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  
+  <script src="../../js/appcart.js"></script>
+  <script src="../../js/animate-in.js"></script>
  <!-- <script>
     $(document).ready(function(){
       var $n = $(".qty");
@@ -106,18 +111,12 @@
       </div>
       <div class="cart-buttons-container mt-3 d-flex justify-content-between">
         <a href="" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase ">Effacer</a>
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-            <div id="smartcart"></div>
-            <input type="hidden" name="business" value="latestbestmodels@gmail.com">
-            <input type="hidden" name="currency_code" value="EUR">
-            <input type="hidden" name="return" value="../includes/success.php">
-            <input type="hidden" name="cancel_return" value="../index.php">
-  <input type="hidden" name="cmd" value="_s-xclick">
+        <form target="paypal" style="width:70px; height: 50px" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
             <input type="button" border="0" class="btn btn-outline-primary text-uppercase btn-pink mx-5"  style="float: right;" name="submit" value="Passer au paiement">
             
             <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-            <input type="hidden" name="upload" value="1">
           </form>
       </div>
     </div>
