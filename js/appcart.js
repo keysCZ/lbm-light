@@ -1,3 +1,4 @@
+// var showmodScript = document.getElementsByTagName('script')[1];
 
 var boxcart = $('.cart-info');
 boxcart.css("borderStyle", "solid");
@@ -8,7 +9,7 @@ boxcart.css("color", "black");
 boxcart.css("background-color", "#1EC2C2");
 
 
-//show-cart
+//show-cart 
 
 (function () {
 	const cartInfo = document.getElementById("cart-info");
@@ -34,32 +35,7 @@ boxcart.css("background-color", "#1EC2C2");
 	cartBtn.forEach(function (btn) {
 		btn.addEventListener("click", function(event) {
 			console.log(event.target);
-
-			if(event.target.classList.contains
-				('addPanier')){
-				let fullPath = 
-			event.target.parentElement.parentElement.previousElementSibling.previousElementSibling.children[0].src;
 			
-			let pos = fullPath.indexOf("img");
-			let partPath = fullPath.slice(pos);
-
-			const item = {};
-
-			item.img = `${fullPath}`;
-
-			let name =
-			event.target.parentElement.parentElement.previousElementSibling.children[0].textContent;
-			
-			item.name = $modele + `${name}`;
-
-			let price =
-			event.target.parentElement.parentElement.previousElementSibling.children[1].children[0].textContent;
-			
-			item.price = price;
-
-			console.log(item);
-		};
-
 	});
 	});
 })();

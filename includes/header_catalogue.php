@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="../../css/style-pg-pdt.css" type="text/css">
   <link rel="stylesheet" href="../../css/cart.css" type="text/css">
   <link rel="stylesheet" href="../../css/filter.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../../js/showmod.js"></script>
+
  <!-- <script>
     $(document).ready(function(){
       var $n = $(".qty");
