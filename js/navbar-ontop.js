@@ -1,13 +1,14 @@
-/**
+require (['jquery', 'bootstrap'], function ($) 
+{/**
  * navbar-ontop.js 1.0.0
  * Add .navbar-ontop class to navbar when the page is scrolled to top
  * Make sure to add this script to the <head> of page to avoid flickering on load
  */
 
-(function() {
+ (function() {
 
-	var className = "navbar-ontop"
-	
+ 	var className = "navbar-ontop"
+
 	// we start hidden, to avoid flickering
 	document.write("<style id='temp-navbar-ontop'>.navbar {opacity:0; transition: none !important}</style>")
 
@@ -34,10 +35,11 @@
 		setTimeout(function() {
 			document.querySelector("#temp-navbar-ontop").remove()
 		})
-  	});
+	});
 
 	window.addEventListener("scroll", function() {
 		update()			
 	})
 
-})();
+	})();
+});

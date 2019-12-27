@@ -1,4 +1,5 @@
-'use strict';
+require(['jquery', 'bootstrap'], function($)
+{
 
 var numberOfItems = $("#all-card .card-group").length;
 var limitPerPage = 12;
@@ -66,4 +67,5 @@ $("#prev-page").on("click", function () {
 		}
 		$(".pagination li.current-page:eq(" + (currentPage - 1) + ")").addClass("active");
 	}
+});
 });

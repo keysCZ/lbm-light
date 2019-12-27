@@ -1,4 +1,5 @@
-/**
+require(['jquery', 'bootstrap'], function($)
+{/**
  * smooth-scroll.js 1.0.0
  * Make your page scrolling smooth
  * Requires JQuery - Does not work with JQuery slim 
@@ -47,3 +48,4 @@
     });
 
 })();
+});

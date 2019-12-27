@@ -19,23 +19,10 @@
       </div>
     </div>
   </div>
-  <script>
-    var basename = <?php echo json_encode($path); ?>;
-   
-  </script>
-  <!-- JavaScript dependencies -->
-  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="../../js/showmod.js"></script>
-  <!-- Script pages -->
 
-  <script src="../../js/navbar-ontop.js"></script>
-  <script src="../../js/filter.js"></script>
-  <script src="../../js/appcart.js" defer></script>
-  <script src="../../js/animate-in.js"></script>
-  <script src="../../js/smooth-scroll.js"></script>
-  <script src="../../js/pagination.js"></script>
+  <script>
+    var basename = <?php echo json_encode($path); ?>; 
+  </script>
 </body>
 
 </html>
