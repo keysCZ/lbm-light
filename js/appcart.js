@@ -34,11 +34,12 @@ define(['jquery', 'bootstrap'], function ($) {
 			request.onload = function(){
 				const dataObjText = request.response;
 				const dataObj = JSON.parse(dataObjText);
+				getItem(dataObj);
+			};
 
+			function getItem(jsonObj) {
 				const cartBtn = document.querySelectorAll('.addPanier');
-				const $modele = document.getElementById('jumbo-title');
-				console.log(modele);
-
+				const $modele = jsonObj['modelsName'];
 				cartBtn.forEach(function (btn) {
 					btn.addEventListener("click", function(event) {
 					//console.log(event.target);
@@ -51,21 +52,21 @@ define(['jquery', 'bootstrap'], function ($) {
 
 						const item = {};
 
-						item.img = `${partPath}`;
+						item.img = `${fullPath}`;
 
 						let name =
 						event.target.parentElement.parentElement.parentElement.previousElementSibling.children[0].textContent;
 
-						item.name = $modele + `${name}`;
+						item.name = $modele + ` ` + `${name}`;
 
 						let price =
 						event.target.parentElement.previousSibling.textContent;
-
-						item.price = price;
+						priceint = price.slice(7, -1);
+						item.price = priceint;
 
 						console.log(item);
 
-						const cartItem = document.createElement('div');
+						var cartItem = document.createElement('div');
 
 						cartItem.classList.add(
 							'cart-item',
@@ -84,6 +85,7 @@ define(['jquery', 'bootstrap'], function ($) {
 						<button style="background:none; border: none;" class="cart-item-remove">Supprimer</button>
 						</div>
 						`;
+					};
 
 						// select cart
 						const cart = document.getElementById('cart');
@@ -105,30 +107,28 @@ define(['jquery', 'bootstrap'], function ($) {
 
 						var count = document.getElementById('item-count').textContent;
 						if(count > 0){ $("#empty_msg").hide(1000); }
-					};
+					});
 
 				});
+			};
+			function showTotals(){
+				const total = [];
+				const items = document.querySelectorAll(".cart-item-price");
+				items.forEach(function(item){
+					total.push(parseFloat(item.textContent));
 				});
-			}
-		},
 
-		showTotals:function(){
-			const total = [];
-			const items = document.querySelectorAll(".cart-item-price");
-			items.forEach(function(item){
-				total.push(parseFloat(item.textContent));
-			});
+				const totalMoney = total.reduce(function(total, item){
+					total += item;
+					return total;
+				}, 0);
+				console.log(total);
 
-			const totalMoney = total.reduce(function(total, item){
-				total += item;
-				return total;
-			}, 0);
-			console.log(total);
+				document.getElementById('cart-total').textContent = totalMoney;
 
-			document.getElementById('cart-total').textContent = totalMoney;
+				document.getElementById('item-count').textContent = total.length;
 
-			document.getElementById('item-count').textContent = total.length;
-
+			};
 		}
 	}
-});
+})
