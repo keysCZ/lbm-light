@@ -37,7 +37,7 @@ define(['jquery', 'bootstrap'], function ($) {
 				addItem(dataObj);
 			};
 			
-
+			var globalCartArray = new Array();
 			function addItem(jsonObj) {
 				const cartBtn = document.querySelectorAll('.addPanier');
 				const $modele = jsonObj['modelsName'];
@@ -51,7 +51,7 @@ define(['jquery', 'bootstrap'], function ($) {
 						let partPath = fullPath.slice(pos);
 						//console.log(partPath);
 
-						const item = {};
+						var item = {};
 
 						item.img = `${fullPath}`;
 
@@ -65,7 +65,8 @@ define(['jquery', 'bootstrap'], function ($) {
 						priceint = price.slice(7, -1);
 						item.price = priceint;
 
-						//console.log(item);
+						console.log(item);
+
 
 						var cartItem = document.createElement('div');
 
@@ -86,6 +87,7 @@ define(['jquery', 'bootstrap'], function ($) {
 						<button style="background:none; border: none;" class="cart-item-remove" id="cart-item-remove">Supprimer</button>
 						</div>
 						`;
+						saveCart(item);
 					};
 
 						// select cart
@@ -106,22 +108,10 @@ define(['jquery', 'bootstrap'], function ($) {
 						var count = document.getElementById('item-count').textContent;
 						if(count > 0){ $("#empty_msg").hide(1000); }
 
-						var cartItems = document.querySelector("cart-item");
-						const cartItemsImg = document.querySelector('#item-img').src;
-						const cartItemsTxt = document.querySelector('#cart-item-title').textContent;
-						const cartItemsPrice = document.querySelector('#cart-item-price').textContent;
-						const cartTotals = document.getElementById('cart-total').textContent;
-
-						var cartObj = {imgitem : cartItemsImg, titleitem : cartItemsTxt, priceitem : cartItemsPrice};
-						var globalCartArray = [];
-						globalCartArray.push(cartObj);
-						
-						console.log(globalCartArray);
-
-						saveCart();
 					});
 
 				});
+
 			}
 			function removeCartItem(event) {
 				var buttonClicked = event.target;
@@ -150,19 +140,17 @@ define(['jquery', 'bootstrap'], function ($) {
 				document.getElementById('item-count').textContent = total.length;
 			}
 
-			function saveCart(){
-				
-
-				var myJson = JSON.stringify(globalCartArray);
-				localStorage.setItem("lbmCart", myJson);
+			function saveCart(item){
+				globalCartArray.push(item);
+				console.log(globalCartArray);
+				sessionStorage.setItem("lbmCart", JSON.stringify(globalCartArray));
 			}
 
-			/*function loadCart(){
-				cart = localStorage.getItem(lbmCart);
-				
-			}*/
+			function loadCart(){
+				cart = sessionStorage.getItem(JSON.parse(lbmCart));
+			}
 
-			//loadCart();
+			loadCart();
 		}
 	}
 })
