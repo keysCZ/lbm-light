@@ -142,12 +142,16 @@ define(['jquery', 'bootstrap'], function ($) {
 
 			function saveCart(item){
 				globalCartArray.push(item);
-				console.log(globalCartArray);
-				sessionStorage.setItem("lbmCart", JSON.stringify(globalCartArray));
+				// console.log(globalCartArray);
+				localStorage.setItem("lbmCart", JSON.stringify(globalCartArray));
 			}
 
 			function loadCart(){
-				cart = sessionStorage.getItem(JSON.parse(lbmCart));
+
+				var itemsaved = localStorage.getItem("lbmCart");
+				var cartsaved = JSON.parse(itemsaved);
+				console.log(cartsaved);
+
 			}
 
 			loadCart();
