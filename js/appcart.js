@@ -35,6 +35,8 @@ define(['jquery', 'bootstrap'], function ($) {
 				const dataObjText = request.response;
 				const dataObj = JSON.parse(dataObjText);
 				addItem(dataObj);
+				var allproductscart = JSON.parse(localStorage.getItem('products'));
+				document.getElementById('item-count').textContent = allproductscart.length;
 			};
 			
 			var globalCartArray = new Array();
@@ -88,6 +90,8 @@ define(['jquery', 'bootstrap'], function ($) {
 						</div>
 						`;
 						saveCart(item);
+
+						// loadCart(saveCart);
 					};
 
 						// select cart
@@ -107,6 +111,7 @@ define(['jquery', 'bootstrap'], function ($) {
 
 						var count = document.getElementById('item-count').textContent;
 						if(count > 0){ $("#empty_msg").hide(1000); }
+						return count;
 
 					});
 
@@ -118,6 +123,7 @@ define(['jquery', 'bootstrap'], function ($) {
 				buttonClicked.parentElement.remove();
 				showTotals();
 				saveCart();
+				// loadCart();
 			}
 			function clearCart(){
 				cart = [];
@@ -137,24 +143,33 @@ define(['jquery', 'bootstrap'], function ($) {
 				//console.log(total);
 
 				document.getElementById('cart-total').textContent = totalMoney;
-				document.getElementById('item-count').textContent = total.length;
 			}
 
 			function saveCart(item){
-				globalCartArray.push(item);
-				// console.log(globalCartArray);
-				localStorage.setItem("lbmCart", JSON.stringify(globalCartArray));
+				let products = [];
+				if(localStorage.getItem('products')){
+					products = JSON.parse(localStorage.getItem('products'));
+				}
+
+				products.push(item);
+
+				localStorage.setItem('products', JSON.stringify(products));
+
+
 			}
 
-			function loadCart(){
+			/*function loadCart(saveCart){
 
-				var itemsaved = localStorage.getItem("lbmCart");
+				var itemsaved = sessionStorage.getItem("lbmCart");
 				var cartsaved = JSON.parse(itemsaved);
 				console.log(cartsaved);
 
-			}
+				if(localStorage.getItem('globalCartArray')){
+					globalCartArray = JSON.parse(localStorage.getItem('products'));
+				}
 
-			loadCart();
+			}
+			loadCart();*/
 		}
 	}
 })
