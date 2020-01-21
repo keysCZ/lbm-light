@@ -35,11 +35,20 @@ define(['jquery', 'bootstrap'], function ($) {
 				const dataObjText = request.response;
 				const dataObj = JSON.parse(dataObjText);
 				addItem(dataObj);
+
+			}
+
+
+			if(localStorage.getItem('products')){
 				var allproductscart = JSON.parse(localStorage.getItem('products'));
-				document.getElementById('item-count').textContent = allproductscart.length;
-			};
-			
-			var globalCartArray = new Array();
+				if (allproductscart.length != 0) {
+					$("#empty_msg").hide(1000);
+					document.getElementById('item-count').textContent = allproductscart.length;
+				}
+			}	
+
+			loadCart();	
+
 			function addItem(jsonObj) {
 				const cartBtn = document.querySelectorAll('.addPanier');
 				const $modele = jsonObj['modelsName'];
@@ -68,62 +77,32 @@ define(['jquery', 'bootstrap'], function ($) {
 						item.price = priceint;
 
 						console.log(item);
+						saveCart(item);	
+					}
+				});
 
-
-						var cartItem = document.createElement('div');
-
-						cartItem.classList.add(
-							'cart-item',
-							'd-flex',
-							'justify-content-bottom-between',
-							'text-capitalize',
-							'my-3'
-							);
-						cartItem.innerHTML = 
-						`
-						<img src="${item.img}" class="img-fluid rounded-circle" style="width:40%; height: 50%;" alt="" id="item-img">
-						<div class="item-text">
-						<p id="cart-item-title" class="font-weight-bold mb-0">${item.name} &nbsp;</p>
-						<span id="cart-item-price" class="cart-item-price">${item.price}</span><span>€</span>
-						</div>
-						<button style="background:none; border: none;" class="cart-item-remove" id="cart-item-remove">Supprimer</button>
-						</div>
-						`;
-						saveCart(item);
-
-						// loadCart(saveCart);
-					};
-
-						// select cart
-						var cart = document.getElementById('cart');
-						const total = document.querySelector('.cart-total-container');
-
-						cart.insertBefore(cartItem, total);
-
-						const removeCartItemButtons = document.getElementsByClassName("cart-item-remove");
-						for (var i = 0; i < removeCartItemButtons.length; i++) {
-							var button = removeCartItemButtons[i];
-							button.addEventListener('click', removeCartItem);
-						}
+					const removeCartItemButtons = document.getElementsByClassName("cart-item-remove");
+					for (var i = 0; i < removeCartItemButtons.length; i++) {
+						var button = removeCartItemButtons[i];
+						button.addEventListener('click', removeCartItem);
+					}
 						//alert("item added to the cart");
+
 
 						showTotals();
 
-						var count = document.getElementById('item-count').textContent;
-						if(count > 0){ $("#empty_msg").hide(1000); }
-						return count;
+						
 
 					});
 
-				});
+			};
 
-			}
+			
 			function removeCartItem(event) {
 				var buttonClicked = event.target;
 				buttonClicked.parentElement.remove();
 				showTotals();
 				saveCart();
-				// loadCart();
 			}
 			function clearCart(){
 				cart = [];
@@ -155,21 +134,42 @@ define(['jquery', 'bootstrap'], function ($) {
 
 				localStorage.setItem('products', JSON.stringify(products));
 
-
 			}
+			function loadCart() {
+				
+				var a = JSON.parse(localStorage.getItem('products'));
+				var cart = document.getElementById('cart');
+				const total = document.querySelector('.cart-total-container');
 
-			/*function loadCart(saveCart){
 
-				var itemsaved = sessionStorage.getItem("lbmCart");
-				var cartsaved = JSON.parse(itemsaved);
-				console.log(cartsaved);
+				if (localStorage.getItem('products')) {
 
-				if(localStorage.getItem('globalCartArray')){
-					globalCartArray = JSON.parse(localStorage.getItem('products'));
+					for (var i = 0; i < a.length; i++) {
+						var cartItem = document.createElement('div');
+						cartItem.classList.add(
+							'cart-item',
+							'd-flex',
+							'justify-content-bottom-between',
+							'text-capitalize',
+							'my-3'
+							);
+						cartItem.innerHTML = 
+						`
+						<img src="${a[i].img}" class="img-fluid rounded-circle" style="width:40%; height: 50%;" alt="" id="item-img">
+						<div class="item-text">
+						<p id="cart-item-title" class="font-weight-bold mb-0">${a[i].name} &nbsp;</p>
+						<span id="cart-item-price" class="cart-item-price">${a[i].price}</span><span>€</span>
+						</div>
+						<button style="background:none; border: none;" class="cart-item-remove" id="cart-item-remove">Supprimer</button>
+						</div>
+						`;
+						// select cart
+						cart.insertBefore(cartItem, total);
+					}
+
 				}
-
 			}
-			loadCart();*/
 		}
 	}
-})
+});
+
