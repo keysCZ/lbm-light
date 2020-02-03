@@ -1,6 +1,6 @@
 
 
-<div class="sidebar">
+<div class="sidebar filter" id="filter">
 	<h5 class="legend-filter fixed">Filtrer</h5>
 	<p class="legend-filter">Styles</p>
 	<ul class="list-group">
@@ -36,6 +36,10 @@
 		<div id="orange" class="round-color color-item"></div>
 		<div id="brown" class="round-color color-item"></div>
 	</div>
+</div>
+
+<div id="btn-filter">
+	<button id="open-filter" class="btn btn-warning">Filtrer</button>
 </div>
 
 

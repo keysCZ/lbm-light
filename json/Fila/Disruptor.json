@@ -1,6 +1,6 @@
 {
   	"modelsName" : "Fila Disruptor",
-	"price" : 90,
+	"price" : 87.5,
 	"models" : [
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/BLACK.PNG",
@@ -10,7 +10,7 @@
 			"color" : ["black"],
 			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
 			"value" : "5MSARB92857ZE",
-			"price" : 150
+			"price" : 87.5
 		},
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/BW.PNG",
@@ -20,7 +20,7 @@
 			"color" : ["white", "black"],
 			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
 			"value" : "UGD6JKQXZNTBQ",
-			"price" : 150
+			"price" : 87.5
 		},
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/WHITE.PNG",
@@ -30,7 +30,7 @@
 			"color" : ["white"],
 			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
 			"value" : " 929JK33MEGZ5U",
-			"price" : 150
+			"price" : 87.5
 		},
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/WHITE PINK.PNG",
@@ -40,7 +40,7 @@
 			"color" : ["white", "pink"],
 			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
 			"value" : " NW8RPNC8B8NRG",
-			"price" : 150
+			"price" : 87.5
 		},
 		{
 			"image" : "../../assets/img-fila/DISRUPTOR/RED.PNG",
@@ -50,7 +50,7 @@
 			"color" : ["red"],
 			"size" : ["38", "39", "40", "41", "42", "43", "44", "45"],
 			"value" : "TDTXDJVBSAERU",
-			"price" : 150
+			"price" : 87.5
 		}
 	]
 }
