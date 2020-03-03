@@ -88,7 +88,7 @@
       <h5> <strong id="cart-total" class="font-weight-bold">0.00</strong> €</h5>
     </div>
     <div class="cart-buttons-container mt-3 d-flex justify-content-between">
-      <a href="" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase ">Effacer</a>
+      <button id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase "> Effacer</button> 
 
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
         <input type="hidden" name="cmd" value="_s-xclick">

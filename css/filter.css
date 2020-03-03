@@ -4,6 +4,12 @@
 body, header{
 	font-family: 'Overlock', cursive;
 }
+#btn-filter{
+	position: relative;
+	right: auto;
+	left: auto;
+	margin-top: 50px;
+}
 /* .main{
 	position: relative;
 	width: 80%;
@@ -11,7 +17,7 @@ body, header{
 	margin-right: 0;
 	margin-left: auto;
 }
- */
+*/
 .legend-filter{
 	border-left: solid 3px black;
 	border-bottom: solid 3px black;

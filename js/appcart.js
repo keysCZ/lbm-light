@@ -39,9 +39,19 @@ define(['jquery', 'bootstrap'], function ($) {
 
 			}
 
-
-
+			/*var indices = [];
+			var productstored = JSON.parse(localStorage.getItem('products'));
+			var element = productstored.find(product => product === null);
+			var nullItem = productstored.indexOf(element);
+			while (nullItem != -1) {
+				indices.push(nullItem);
+				nullItem = productstored.indexOf(element, nullItem + 1);
+			}
+			console.log(indices);
+			localStorage.removeItem(nullItem);*/
 			loadCart();	
+
+
 
 			function addItem(jsonObj) {
 				const cartBtn = document.querySelectorAll('.addPanier');
@@ -87,7 +97,7 @@ define(['jquery', 'bootstrap'], function ($) {
 						`
 						<img src="${a.slice(-1)[0].img}" class="img-fluid rounded-circle" style="width:40%; height: 50%;" alt="" id="item-img">
 						<div class="item-text">
-						<p id="cart-item-title" class="font-weight-bold mb-0">${a.slice(-1)[0].name} &nbsp;</p>
+						<p id="cart-item-title" class="font-weight-bold mb-0">${a.slice(-1)[0].name}</p>
 						<span id="cart-item-price" class="cart-item-price">${a.slice(-1)[0].price}</span><span>€</span>
 						</div>
 						<button style="background:none; border: none;" class="cart-item-remove" id="cart-item-remove">Supprimer</button>
@@ -95,7 +105,7 @@ define(['jquery', 'bootstrap'], function ($) {
 						`;
 						// select cart
 						cart.insertBefore(cartItem, total);
-						
+
 						showTotals();
 
 						if(localStorage.getItem('products')){
@@ -108,36 +118,55 @@ define(['jquery', 'bootstrap'], function ($) {
 					}
 				});
 
-					const removeCartItemButtons = document.getElementsByClassName("cart-item-remove");
+					var erase = document.getElementById("clear-cart");
+					erase.addEventListener('click', clearCart);
+
+
+					var removeCartItemButtons = document.querySelectorAll(".cart-item-remove");
 					for (var i = 0; i < removeCartItemButtons.length; i++) {
 						var button = removeCartItemButtons[i];
 						button.addEventListener('click', removeCartItem);
 					}
+
 					showTotals();
 				});
 			};
 
 			
-			function removeCartItem(event) {
-				var buttonClicked = event.target;
-
-				var itemname = buttonClicked.previousElementSibling.children[0].textContent;
-				let productstored = JSON.parse(localStorage.getItem('products'));
+			function removeCartItem() {
+				var del = document.querySelector('.cart-item');
+				var cartitemdel = event.target.parentElement;
+				var namedel = cartitemdel.children[0].src;
+				console.log(namedel); 
+				var productstored = JSON.parse(localStorage.getItem('products'));
 				for (var i = 0; i < productstored.length; i++) {
-					if (productstored[i] === null) {
-						localStorage.removeItem(this);
+					if (productstored[i].img === namedel) {
+						var i = productstored.indexOf(productstored[i]);
+						console.log(productstored[i]);
+						productstored.splice(i, 1);
+
 					}
-					
+
 				}
 
-				buttonClicked.parentElement.remove();
-				showTotals();
-				saveCart();
+				localStorage.setItem('products', JSON.stringify(productstored));
+				console.log(productstored);
+
+
+				cartitemdel.remove();
+
+				showTotals();					
 			} 
 
-			function clearCart(){
-				cart = [];
-				saveCart();
+			function clearCart(event){
+				console.log(event.target);
+				var del = document.querySelectorAll('.cart-item');
+				for (var i = 0; i < del.length; i++) {
+					del[i].remove();
+				}
+				localStorage.clear();
+				showTotals();
+				loadCart();
 			}
 			function showTotals(){
 				const total = [];
@@ -204,6 +233,9 @@ define(['jquery', 'bootstrap'], function ($) {
 						$("#empty_msg").hide(1000);
 						document.getElementById('item-count').textContent = allproductscart.length;
 					}
+
+
+
 				}	
 			}
 		}

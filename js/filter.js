@@ -6,7 +6,7 @@ define(['jquery', 'bootstrap', 'showmod'], function ($){
 			$('.filter').css("display", "none");
 			btnfilter.addEventListener("click", function() {
 				$('.filter').addClass('showfilter');
-				//alert(windowfilter());
+				windowfilter();
 			});
 
 			function windowfilter() {

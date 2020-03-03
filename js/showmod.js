@@ -3,6 +3,7 @@ require.config({
 		'jquery': ['https://code.jquery.com/jquery-3.4.1.min', 'jquery-3.4.1.min'],
 		'bootstrap': 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min',
 		'filter': 'filter',
+		'pagination': 'pagination',
 		'appcart': 'appcart'
 	},
 	shim: {
@@ -36,7 +37,7 @@ require(['jquery', 'bootstrap'], function($){
 		const titleModel = document.createElement('h1');
 		titleModel.textContent = jsonObj['modelsName'];
 		titleModel.setAttribute("id", "jumbo-title");
-		header.appendChild(titleModel);
+		header.insertBefore(titleModel, header.children[0]);
 	}
 
 	// SHOW ARTICLES
@@ -100,7 +101,23 @@ require(['jquery', 'bootstrap'], function($){
 				storeItemSize.appendChild(listSize);
 				// payment button
 				var paypalItemId = models[i].value;
-				storeItemPrice.insertAdjacentHTML('beforeend', `<form target="paypal" class="paypalItem" action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_s-xclick"><input value="${paypalItemId}" type="hidden" name="hosted_button_id"  class="paypalId"><table><tr><td><input type="hidden" name="on0" value="Taille">Taille</td></tr><tr><td><select name="os0" id="os">${listSize}</select></td></tr></table><input type="image" class="addPanier" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne"><img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1"></form>`);
+				storeItemPrice.insertAdjacentHTML('beforeend', `<form target="paypal" class="paypalItem" action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_s-xclick"><input value="${paypalItemId} " type="hidden" name="hosted_button_id"  class="paypalId"> <table>
+                  <tr><td><input type="hidden" name="on0" value="Taille">Taille</td></tr><tr><td><select name="os0">
+                    <option value="37">37 </option>
+                    <option value="38">38 </option>
+                    <option value="39">39 </option>
+                    <option value="40">40 </option>
+                    <option value="41">41 </option>
+                    <option value="42">42 </option>
+                    <option value="43">43 </option>
+                    <option value="44">44 </option>
+                    <option value="45">45 </option>
+                  </select> </td></tr>
+                </table><input type="image" class="addPanier" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne"><img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1"></form>`);
+				//var os = document.querySelectorAll('.os');
+				/*for (var i = 0; i < os.length; i++) {
+					os[i].innerHTML(listSize);
+				}*/
 
 				cardBody.appendChild(storeItemName);
 				cardBody.appendChild(storeItemId);
@@ -119,7 +136,7 @@ require(['jquery', 'bootstrap'], function($){
 		}
 	})
 
-require(['jquery', 'filter'], function ($, filt) {
+require(['jquery', 'filter', 'pagination'], function ($, filt, paj) {
 	var requestURL = basename;
 	const header = document.querySelector('header');
 	const section = document.querySelector('section');
@@ -133,6 +150,7 @@ require(['jquery', 'filter'], function ($, filt) {
 	request.onload = function(){
 		const dataObjText = request.response;
 		const dataObj = JSON.parse(dataObjText);
+		paj.pagination();
 		filt.btnFilter();
 		filt.countItems();
 		filt.filterColor(dataObj);

@@ -8,11 +8,12 @@ $buffer=str_replace("%TITLE%","AIR MAX PLUS",$buffer);
 echo $buffer;
 
 $path = '../../json/Nike/TNk.json';
+$filterpatb = ''
 ?>
 <div class="py-5 mb-0">
 	<!-- SideBar -->
-	<?php include("../../includes/filter.php"); ?>
-	<header class="jumbotron py-5 bg-light text-center"></header>
+	<header class="jumbotron py-5 bg-light text-center"><br>
+	<?php include("../../includes/filter.php"); ?></header>
 	<div class="container main">
 		<section>
 

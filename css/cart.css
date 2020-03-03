@@ -15,7 +15,9 @@
 	width: 0;
   	font-family: 'Big Shoulders Display', cursive;
 }
-
+#clear-cart{
+	right: 0px;
+}
 .showc{
 	width: 18rem;
 	top: 50px;

@@ -21,7 +21,7 @@
   </div>
 
   <script>
-    var basename = <?php echo json_encode($path); ?>; 
+    var basename = <?php echo json_encode($path); ?>;
   </script>
 </body>
 
