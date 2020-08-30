@@ -4,8 +4,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-7 align-self-center text-lg-left text-center">
-          <h1 class="mb-0 mt-4 display-4" style=" width: 320px; background-color: blue; color:#D74E4E; font-family: 'Impact">LBM<b style="font-size: 45px;">Express</b></h1><span>The Latest Best Models </span>
-          <p class="my-5 mb-5" style="font-size:28px;"><br>NIKE | AIR JORDAN / ADIDAS / LACOSTE / FILA / PUMA</p>
+          <img src="assets\images\logolbm.png" alt="Logo" style="width:100%;">
+          <p class="my-5 mb-5" style="font-size:28px;">Offrez-vous une paire de 
+          <span class="rotate">NIKE | AIR JORDAN | ADIDAS | LACOSTE | FILA | PUMA</span>.</p>
         </div>
       </div>
     </div>

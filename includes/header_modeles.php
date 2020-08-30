@@ -11,48 +11,15 @@
   <meta name="keywords" content="Pingendo restaurant food flat free template bootstrap 4">
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="../flat.css" type="text/css">
+  <link rel="stylesheet" href="../css/flat.css" type="text/css">
+  <link rel="stylesheet" href="../css/style-pg-mdl.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito|Righteous&display=swap" rel="stylesheet">
   <!-- Script: Make my navbar transparent when the document is scrolled to top -->
-  <script src="../js/navbar-ontop.js"></script>
-  <!-- Script: Animated entrance -->
-  <script src="../js/animate-in.js"></script>
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script data-main="../../config" src="../../require-2.3.6.js"></script>
+
   <style>
-    body{
-      font-family: 'Nunito', sans-serif;
-    }
-    .cover2{
-      display: block;
-      position: absolute;
-      z-index: 1;
-      background-color: rgba(250, 250, 250, 0.5);
-      border-radius: 15px;
-      filter: blur(15);
-      width: auto;
-      height:200px;
-      margin-top: 150px;
-      font-family: 'Righteous', cursive;
-    }
-    h3{
-      font-size: 18px;
-    }
-    .card-image{
-      height: 150px;
-      border-radius: 8px 8px 0px 0px;
-    }
-    .card-image img{
-      height: 150px;
-    }
-    .card-header{
-      height: 70px;
-      background-color: rgba(41, 196, 139, 0.3);
-    }
-    .card-body{
-      height-max: 350px;
-    }
+    
   </style>
    <!--<script>
     $(document).ready(function(){
@@ -111,7 +78,8 @@
           </li> 
           <li class="nav-item mx-2">
             <a class="nav-link" href="../marques/Enfants.php">ENFANTS</a>
-          </li>           <li class="nav-item dropdown">
+          </li>           
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> HOMMES </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="../marques/Nike.php">NIKE</a>
