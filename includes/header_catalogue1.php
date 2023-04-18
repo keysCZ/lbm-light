@@ -9,10 +9,10 @@
   <meta name="description" content="Free Bootstrap 4 Pingendo Flat template for restaurant and food">
   <meta name="keywords" content="Pingendo restaurant food flat free template bootstrap 4">
   <!-- CSS dependencies -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/cs">
   <link rel="stylesheet" href="../../flat.css" type="text/css">
   <link rel="stylesheet" href="../../css/style-pg-pdt.css" type="text/css">
-  <link rel="stylesheet" href="../../css/cart.css" type="text/css">
+  <link rels="stylesheet" href="../../css/cart.css" type="text/css">
   <link rel="stylesheet" href="../../css/filter.css" type="text/css">
   <script src="../../js/navbar-ontop.js"></script>
   <!-- Script: Animated entrance -->

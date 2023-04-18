@@ -1,4 +1,12 @@
-<?php include 'includes/header.php'; ?>
+<?php
+    ob_Start();
+    include("includes/header.php");
+    $buffer=ob_get_contents();
+    ob_end_clean();
+
+    $buffer=str_replace("%TITLE%","Accueil",$buffer);
+    echo $buffer;
+?>
   <!-- Cover -->
   <div class="align-items-center d-flex py-5 cover section-primary" style="background-image: url(&quot;assets/images/kicks-2213619_1920.jpg&quot;);">
     <div class="container">
@@ -110,7 +118,7 @@
           </div>
           <div class="row">
             <div class="col-md-6"><img src="assets/images/shoes-1011596_1920.jpg" class="img-fluid mx-auto"></div>
-            <div class="col-md-6"><img src="assets/img-vans/vans demo.PNG" class="img-fluid" alt="https://archzine.fr/wp-content/uploads/2017/03/Vans-Sk8-Hi-LX-Zip-baskets-montantes-cuir-bleu-montant.jpg"></div>
+            <div class="col-md-6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0RiebmddKTbPdWb5y3V1gv-uLftiZVHX65w&usqp=CAU" class="img-fluid" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0RiebmddKTbPdWb5y3V1gv-uLftiZVHX65w&usqp=CAU"></div>
           </div>
         </div>
         <div class="col-md-4">

@@ -10,8 +10,8 @@ $path = '../../json/AirJordan/13.json';
 ?>
 <div class="py-5 mb-0">
 	<!-- SideBar -->
-	<?php include("../../includes/filter.php"); ?>
 	<header class="jumbotron py-5 bg-light text-center"></header>
+	<?php include("../../includes/filter.php"); ?>
 	<div class="container main">
 		<section>
 

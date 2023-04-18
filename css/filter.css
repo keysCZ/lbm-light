@@ -6,9 +6,9 @@ body, header{
 }
 #btn-filter{
 	position: relative;
-	right: auto;
-	left: auto;
-	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: auto;
+	margin-top: 80px;
 }
 /* .main{
 	position: relative;

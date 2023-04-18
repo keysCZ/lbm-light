@@ -19,7 +19,7 @@
           <div class="carousel-item active"> <img class="d-block " style="height: 600px; width: 100%" src="../assets/images/kicks-2213619_1920.jpg"> </div>
           <div class="carousel-item"> <img class="d-block " style="height: 600px; width: 100%" src="../assets/img-jordan/14/demo.PNG"> </div>
           <div class="carousel-item"> <img class="d-block " style="height: 600px; width: 100%" src="../assets/img-jordan/13/DEMO.PNG"> </div>
-          <div class="carousel-item"> <img class="d-block " style="height: 600px; width: 100%" src="../assets/img-jordan/30/DEMO.PNG"> </div>
+          <!-- <div class="carousel-item"> <img class="d-block " style="height: 600px; width: 100%" src="../assets/img-jordan/30/DEMO.PNG"> </div> -->
         <ol class="carousel-indicators">
           <li data-target="#carousel1" data-slide-to="0" class="active"> </li>
           <li data-target="#carousel1" data-slide-to="1" class=""> </li>
